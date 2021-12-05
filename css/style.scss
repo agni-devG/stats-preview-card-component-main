@@ -1,0 +1,60 @@
+@import'global';
+@import'variables';
+
+body{
+    background-color: $blue-dark;
+}
+
+.card{
+    position: absolute;
+    height: 445px;
+    width: 1110px;
+    top: 50%;
+    left: 50%;
+    background-color:$bule-ds;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 75px 70px;
+}
+
+.head-main{
+    color: $white;
+    font-family: $inter;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 35px;
+}
+.para{
+    color: $para-main;
+    font-family: $lexenddeca;
+    line-height: 20px;
+    margin-bottom: 70px;
+}
+.head-li{
+    font-family: $inter;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: $white;
+    margin-bottom: 6px;
+}
+.sub-li{
+    font-family: $lexenddeca;
+    color: $heading-stat;
+    text-transform:uppercase;
+    font-size: .65em;
+    letter-spacing: 1px;
+}
+
+.image{
+    height: 445px;
+    width: 540px;
+    background: $violet;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    img{
+        opacity: 0.4;
+    }
+}

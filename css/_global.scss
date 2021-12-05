@@ -1,0 +1,25 @@
+@import'variables';
+
+body{
+    font-size: 15px;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.violet{
+    color:$violet;
+}
+ul{
+    list-style: none;
+    padding: 0 40px 0 0px;
+}
+li{
+    
+    margin: none;
+}
